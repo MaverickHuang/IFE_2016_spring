@@ -1,0 +1,123 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: "黑体";
+    background-color: RGB(222,222,222);
+}
+
+.nav {
+    /*width: 1000px;
+  margin: 10px;
+  padding: 5px;*/
+    /*background-color: white;
+    border: solid rgb(203,203,203);
+    box-shadow: 3px 3px 3px rgb(170,170,170);
+    width: 90%;
+    padding: 25px;
+    margin: 20px auto;*/
+    background-color: RGB(51,51,51);
+}
+
+    .nav ul {
+        margin: 0px 30px;
+        float: right;
+        height: 100px;
+        line-height: 60px;
+    }
+
+    .nav li {
+        display: inline-block;
+        margin: 0px 20px;
+    }
+
+.content {
+    background-color: RGB(222,222,222);
+}
+
+    .content div {
+        width: 100%;
+        margin: 10px;
+        padding: 5px;
+        background-color: white;
+        border: solid rgb(203,203,203);
+        box-shadow: 3px 3px 3px rgb(170,170,170);
+        width: 90%;
+        padding: 25px;
+        margin: 20px auto;
+        background-color: white;
+        line-height: 30px;
+    }
+
+    .content h3 {
+        color: rgb(127,127,127);
+    }
+
+    .content p {
+        text-indent: 2em;
+    }
+
+    .content ul {
+        list-style-type: none;
+        text-indent: 2em;
+    }
+
+    .content ol {
+        padding: 10px 0 0 50px;
+    }
+
+    .content table {
+        border-collapse: collapse;
+        text-align: left;
+        width: 100%;
+    }
+
+    .content table th {
+        font-size: 1em;
+        border: 1px solid #ccc;
+        padding: 3px 7px 2px 7px;
+        background-color: black;
+        color: white;
+    }
+
+    .content table td {
+        font-size: 1em;
+        border: 1px solid #ccc;
+        padding: 3px 7px 2px 7px;
+    }
+
+    .content table .foot {
+        background-color: RGB(222,222,222);
+    }
+
+.pic {
+    list-style: none;
+    text-align: center;
+    margin:3px;
+    height:auto;
+    width:auto;
+}
+
+    .pic li {
+        width: 220px;
+        border: 1px #ccc solid;
+        box-sizing: border-box;
+        padding: 0 10px 10px 10px;
+        margin: 20px 0px 5px 20px;
+    }
+
+    .pic img {
+        width: 200px;
+    }
+
+.copy {
+    background-color: black;
+}
+
+    .copy p {
+        padding: 15px 0px;
+        text-align: center;
+        color: white;
+    }
